@@ -1,0 +1,23 @@
+experiment:
+  name: baseline-resnet18
+  seed: 42
+
+model:
+  name: resnet18
+  pretrained: true
+  num_classes: 1
+
+labels:
+  real: 0
+  fake: 1
+
+evaluation:
+  threshold: 0.5
+  metrics:
+    - accuracy
+    - balanced_accuracy
+    - f1
+    - auc
+
+paths:
+  results_dir: experiments/results
