@@ -18,7 +18,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Run `notebooks/01_baseline.ipynb` locally or in Google Colab. In Colab, update `YOUR_GITHUB_REPOSITORY_URL` in the first cell before running it.
+Run `notebooks/01_baseline_colab.ipynb` in Google Colab for the self-contained baseline smoke test. The original `notebooks/01_baseline.ipynb` remains available for the minimal local environment check.
 
 ## Repository layout
 
